@@ -54,14 +54,22 @@
 		223196731DAB7ED2003D598B /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				223196741DAB7ED2003D598B /* AppDelegate.swift */,
+				223196861DAB8009003D598B /* Supporting Files */,
 				223196761DAB7ED2003D598B /* ViewController.swift */,
 				223196781DAB7ED2003D598B /* Main.storyboard */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		223196861DAB8009003D598B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				223196741DAB7ED2003D598B /* AppDelegate.swift */,
 				2231967B1DAB7ED2003D598B /* Assets.xcassets */,
 				2231967D1DAB7ED2003D598B /* LaunchScreen.storyboard */,
 				223196801DAB7ED2003D598B /* Info.plist */,
 			);
-			path = Calculator;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +271,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sle7.ios.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -275,6 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sle7.ios.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
