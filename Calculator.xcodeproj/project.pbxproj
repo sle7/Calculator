@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22142F0E1DB01073000EDA6B /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22142F0D1DB01073000EDA6B /* CalculatorBrain.swift */; };
 		223196751DAB7ED2003D598B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223196741DAB7ED2003D598B /* AppDelegate.swift */; };
 		223196771DAB7ED2003D598B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223196761DAB7ED2003D598B /* ViewController.swift */; };
 		2231967A1DAB7ED2003D598B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223196781DAB7ED2003D598B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22142F0D1DB01073000EDA6B /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		223196711DAB7ED2003D598B /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		223196741DAB7ED2003D598B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		223196761DAB7ED2003D598B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				223196861DAB8009003D598B /* Supporting Files */,
 				223196761DAB7ED2003D598B /* ViewController.swift */,
 				223196781DAB7ED2003D598B /* Main.storyboard */,
+				22142F0D1DB01073000EDA6B /* CalculatorBrain.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22142F0E1DB01073000EDA6B /* CalculatorBrain.swift in Sources */,
 				223196771DAB7ED2003D598B /* ViewController.swift in Sources */,
 				223196751DAB7ED2003D598B /* AppDelegate.swift in Sources */,
 			);
@@ -307,6 +311,7 @@
 				223196851DAB7ED2003D598B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

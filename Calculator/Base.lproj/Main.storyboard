@@ -136,6 +136,16 @@
                                     <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wlx-nc-wtY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpj-cm-W3f">
+                                <frame key="frameInset" minX="35" minY="159" width="53" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="√"/>
+                                <connections>
+                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z9i-bo-TYA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
